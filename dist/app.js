@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const path_1 = __importDefault(require("path"));
-const index_1 = __importDefault(require("./routes/index"));
+const index_1 = __importDefault(require("./index"));
 const app = (0, express_1.default)();
 const PORT = 3000;
 // Middleware
