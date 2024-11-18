@@ -35,6 +35,6 @@ router.post('/users', (req, res) => {
 });
 // 5. GET All Users
 router.get('/users', (req, res) => {
-    res.status(201).json(users);
+    res.status(201).json({ users });
 });
 exports.default = router;
