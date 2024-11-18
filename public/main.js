@@ -3,6 +3,7 @@ document.getElementById('userForm').addEventListener('submit', async (event) => 
   
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
+    event.target.reset();
   
     const response = await fetch('/users', {
       method: 'POST',
